@@ -69,5 +69,17 @@ class HazardUnitNonCombin extends Module {
   io.mem_wb_flush := false.B
 
   // Your code goes here
+    when(io.exmem_taken === True){
+    io.pcfromtake := true.B
+    io.if_id_flush := true.B
+    io.id_ex_flush := true.B
+    io.ex_mem_flush := true.B
+  }
+  when((io.idex_memread === true.B) && ((io.idex_rd === io.rs1)||(io.idex_rd === io.rs2)))
+  {
+    io.pcstall := true.B
+    io.if_id_stall := true.B
+    io.id_ex_flush := true.B
+  }
 
 }
