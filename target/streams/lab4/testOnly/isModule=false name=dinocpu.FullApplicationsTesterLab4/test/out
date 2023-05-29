@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mFullApplicationsTesterLab4:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNon-Combinational Pipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application multiply.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application median.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application qsort.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application rsort.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application spmv.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-8.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-16.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-32.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application towers.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application vvadd.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-1.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-1-noverify.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-4.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-4-noverify.riscv[0m[0m

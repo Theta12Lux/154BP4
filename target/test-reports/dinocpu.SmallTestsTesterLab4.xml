@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="COE-CS-pc36.OU.AD3.UCDAVIS.EDU" name="dinocpu.SmallTestsTesterLab4" tests="187" errors="0" failures="0" skipped="0" time="175.336" timestamp="2023-05-25T01:40:50">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/sbt-user/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-10-18"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="user.name" value="kaustavg"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-1150024274/jna927335683107917170.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.17"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/.singularity.d/libs:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/kaustavg/.sbt/1.0/java9-rt-ext-ubuntu_11_0_17"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/sbt-user/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="GMT"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/kaustavg"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.0-72-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/kaustavg/TA/ECS154B/A4/test/Assignment4"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype add1" time="5.954">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype add2" time="1.037">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype add0" time="0.955">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype addw1" time="1.021">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype addw2" time="0.989">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype addw3" time="0.766">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype or" time="0.823">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sub" time="0.827">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype subw1" time="0.989">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype subw2" time="0.863">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype subw3" time="0.831">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype and" time="0.784">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype xor" time="0.897">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype slt" time="0.87">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype slt1" time="1.141">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sltu" time="0.897">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sltu1" time="1.025">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sll" time="0.782">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sll2" time="0.888">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sllw1" time="0.984">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sllw2" time="0.845">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sllw3" time="1.325">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sllw4" time="1.037">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srl" time="0.797">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srl2" time="0.868">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srlw1" time="0.79">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srlw2" time="1.009">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srlw3" time="0.796">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype srlw4" time="0.88">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sra" time="0.931">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sra2" time="0.888">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sraw1" time="0.869">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sraw2" time="0.782">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtype sraw3" time="0.876">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run jump jal" time="0.926">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run jump jalr0" time="1.095">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run jump jalr1" time="0.983">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utypeMultiCycle auipc1" time="1.054">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utypeMultiCycle auipc3" time="0.987">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch beq-False" time="0.786">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch beq-True" time="0.985">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bne-False" time="0.991">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bne-True" time="1.626">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch blt-False" time="0.801">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch blt-False-equal" time="0.671">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch blt-True" time="0.88">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch blt-False-signed" time="1.04">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch blt-True-signed" time="0.744">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bge-False" time="0.913">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bge-True" time="1.09">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bge-False-signed" time="1.01">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bge-True-signed" time="0.896">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bge-True-equal" time="0.728">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bltu-False" time="0.932">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bltu-True" time="1.413">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bgeu-False" time="0.746">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branch bgeu-True" time="0.745">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itypeMultiCycle addi2" time="0.937">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memoryMultiCycle lwfwd" time="1.052">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memoryMultiCycle ldfwd" time="0.963">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memoryMultiCycle swfwd1" time="0.827">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memoryMultiCycle swfwd2" time="0.668">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype addi1" time="0.808">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype addiw1" time="0.881">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype addiw2" time="0.836">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype addiw3" time="1.038">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slli" time="0.889">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slli2" time="0.833">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slliw1" time="0.911">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slliw2" time="0.806">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slliw3" time="0.805">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srai" time="0.955">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srai-negative" time="1.035">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype sraiw1" time="1.096">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype sraiw2" time="0.791">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srli" time="1.093">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srli2" time="1.034">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srliw1" time="0.753">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srliw2" time="0.715">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype srliw3" time="1.081">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype andi" time="1.009">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype ori" time="0.886">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype xori" time="0.949">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype slti" time="0.823">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype sltiu" time="1.034">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run itype addi-funct7" time="0.845">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utype auipc0" time="0.879">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utype auipc2" time="1.264">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utype lui0" time="0.87">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run utype lui1" time="0.774">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branchMultiCycle beqfwd1" time="0.967">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run branchMultiCycle beqfwd2" time="0.913">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle addfwd" time="0.931">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle swapxor" time="1.104">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle power2-512" time="0.93">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle power2-1234" time="0.996">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle power2--65536" time="0.735">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle oppsign-true" time="0.789">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle oppsign-false" time="0.632">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMultiCycle rotR" time="0.994">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-zero-positive" time="0.982">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-positive-positive" time="1.002">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-negative-positive" time="0.851">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-negative-negative" time="0.803">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-big-numbers-positive-positive" time="0.849">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-big-numbers-negative-positive" time="0.912">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mul-big-numbers-negative-negative" time="0.995">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-zero-positive" time="1.006">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-positive-positive" time="1.038">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-negative-positive" time="0.984">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-negative-negative" time="0.851">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-big-numbers-positive-positive" time="0.813">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-big-numbers-negative-positive" time="0.853">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulh-big-numbers-negative-negative" time="0.801">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhu-zero" time="0.97">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhu-small-numbers" time="0.927">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhu-big-numbers-1" time="0.885">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhu-big-numbers-2" time="0.801">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-zero-positive" time="0.79">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-positive-positive" time="1.022">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-negative-positive" time="0.958">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-big-numbers-positive-positive" time="2.451">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-big-numbers-negative-positive-1" time="0.875">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulhsu-big-numbers-negative-positive-2" time="0.695">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-zero-positive" time="0.887">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-positive-positive" time="0.872">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-negative-positive" time="0.706">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-negative-negative" time="0.864">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-big-numbers-positive-positive" time="0.846">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-big-numbers-negative-positive" time="1.062">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension mulw-big-numbers-negative-negative" time="0.918">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension div-positive-positive" time="0.799">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension div-positive-negative" time="0.729">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension div-negative-negative" time="0.683">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension div-division-by-zero" time="0.892">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension div-overflow" time="0.935">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-positive-positive" time="0.722">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-positive-negative" time="1.09">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-negative-positive" time="0.77">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-negative-negative" time="0.74">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-division-by-zero" time="0.783">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension rem-overflow" time="0.711">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divu-1" time="0.842">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divu-2" time="0.802">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divu-division-by-zero" time="0.868">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remu-1" time="1.446">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remu-2" time="0.965">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remu-division-by-zero" time="0.939">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-positive-positive" time="0.742">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-positive-negative" time="0.775">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-negative-negative" time="0.723">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-sign-extension" time="0.94">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-division-by-zero" time="0.883">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divw-overflow" time="0.802">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-positive-positive" time="0.832">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-positive-negative" time="0.89">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-negative-negative" time="0.916">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-sign-extension" time="0.993">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-division-by-zero" time="0.937">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remw-overflow" time="0.769">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divuw-1" time="0.88">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divuw-2" time="0.883">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension divuw-division-by-zero" time="0.832">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remuw-1" time="1.102">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remuw-2" time="0.789">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run rtypeMExtension remuw-division-by-zero" time="0.936">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run smallApplications fibonacci" time="0.956">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run smallApplications naturalsum" time="0.958">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run smallApplications multiplier" time="0.912">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run smallApplications divider" time="1.108">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lw1" time="0.918">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lb" time="0.912">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lh" time="0.973">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lbu" time="0.684">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lhu" time="1.064">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lb1" time="0.842">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lh1" time="0.792">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lwu" time="0.663">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory lwu1" time="0.913">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory ld1" time="0.728">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory ld2" time="0.918">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sw" time="0.803">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sw2" time="0.77">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sb" time="0.9">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sh" time="0.82">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sd1" time="0.877">
+                                                 
+                                               </testcase><testcase classname="dinocpu.SmallTestsTesterLab4" name="Non-Combinational Pipelined CPU should run memory sd2" time="1.027">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
