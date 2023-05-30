@@ -162,7 +162,7 @@ class PipelinedNonCombinCPU(implicit val conf: CPUConfig) extends BaseCPU {
   }
 
   // Fill the IF/ID register
-  when ((pc % 8.U) === 4.U) {
+  when ((fetch_pc % 8.U) === 4.U) {
     if_id.io.in.instruction := io.imem.instruction(63, 32)
   } .otherwise {
     if_id.io.in.instruction := io.imem.instruction(31, 0)
