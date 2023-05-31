@@ -1182,18 +1182,6 @@ circuit Top :
       io.ex_mem_stall <= UInt<1>("h01") @[hazardnoncombin.scala 117:21]
       io.mem_wb_stall <= UInt<1>("h01") @[hazardnoncombin.scala 118:21]
       skip @[hazardnoncombin.scala 113:3]
-    node _T_20 = eq(io.exmem_meminst, UInt<1>("h01")) @[hazardnoncombin.scala 122:25]
-    when _T_20 : @[hazardnoncombin.scala 123:3]
-      node _T_21 = eq(io.dmem_good, UInt<1>("h00")) @[hazardnoncombin.scala 124:23]
-      when _T_21 : @[hazardnoncombin.scala 125:5]
-        io.mem_wb_flush <= UInt<1>("h01") @[hazardnoncombin.scala 126:23]
-        io.mem_wb_stall <= UInt<1>("h01") @[hazardnoncombin.scala 127:23]
-        io.ex_mem_stall <= UInt<1>("h01") @[hazardnoncombin.scala 128:23]
-        io.id_ex_stall <= UInt<1>("h01") @[hazardnoncombin.scala 129:22]
-        io.if_id_stall <= UInt<1>("h01") @[hazardnoncombin.scala 130:22]
-        io.pcstall <= UInt<1>("h01") @[hazardnoncombin.scala 131:18]
-        skip @[hazardnoncombin.scala 125:5]
-      skip @[hazardnoncombin.scala 123:3]
     
   module StageReg : 
     input clock : Clock

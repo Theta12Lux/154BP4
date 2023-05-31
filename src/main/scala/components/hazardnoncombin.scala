@@ -117,18 +117,4 @@ class HazardUnitNonCombin extends Module {
     io.ex_mem_stall := true.B
     io.mem_wb_stall := true.B
   }
-
-  //dmem stuff
-  when(io.exmem_meminst === true.B)
-  {
-    when(io.dmem_good === false.B)
-    {
-      io.mem_wb_flush := true.B
-      io.mem_wb_stall := true.B
-      io.ex_mem_stall := true.B
-      io.id_ex_stall := true.B
-      io.if_id_stall := true.B
-      io.pcstall := true.B
-    }
-  }
 }

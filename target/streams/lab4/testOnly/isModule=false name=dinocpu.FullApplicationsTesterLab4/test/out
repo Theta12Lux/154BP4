@@ -1,21 +1,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mFullApplicationsTesterLab4:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mNon-Combinational Pipelined CPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run full application multiply.riscv[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application median.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab4Test.scala:36)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application qsort.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  treadle.executable.StopException: Failure Stop: result 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.runAssigns(ExecutionEngine.scala:166)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.evaluateCircuit(ExecutionEngine.scala:347)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.raiseClock$1(ClockStepper.scala:112)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.$anonfun$run$2(ClockStepper.scala:152)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.run(ClockStepper.scala:128)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.TreadleTester.step(TreadleTester.scala:320)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver.run(CPUTesterDriver.scala:261)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver$.apply(CPUTesterDriver.scala:299)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.FullApplicationsTesterLab4.$anonfun$new$6(Lab4Test.scala:37)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application median.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application qsort.riscv[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should run full application rsort.riscv *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  treadle.executable.StopException: Failure Stop: result 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.runAssigns(ExecutionEngine.scala:166)[0m[0m
@@ -30,34 +17,9 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.FullApplicationsTesterLab4.$anonfun$new$6(Lab4Test.scala:37)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run full application spmv.riscv[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application st-matmul-8.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab4Test.scala:36)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application st-matmul-16.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  treadle.executable.StopException: Failure Stop: result 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.runAssigns(ExecutionEngine.scala:166)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.evaluateCircuit(ExecutionEngine.scala:347)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.raiseClock$1(ClockStepper.scala:112)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.$anonfun$run$2(ClockStepper.scala:152)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.run(ClockStepper.scala:128)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.TreadleTester.step(TreadleTester.scala:320)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver.run(CPUTesterDriver.scala:261)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver$.apply(CPUTesterDriver.scala:299)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.FullApplicationsTesterLab4.$anonfun$new$6(Lab4Test.scala:37)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application st-matmul-32.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  treadle.executable.StopException: Failure Stop: result 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.runAssigns(ExecutionEngine.scala:166)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.evaluateCircuit(ExecutionEngine.scala:347)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.raiseClock$1(ClockStepper.scala:112)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.$anonfun$run$2(ClockStepper.scala:152)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.SimpleSingleClockStepper.run(ClockStepper.scala:128)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.TreadleTester.step(TreadleTester.scala:320)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver.run(CPUTesterDriver.scala:261)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.test.CPUTesterDriver$.apply(CPUTesterDriver.scala:299)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at dinocpu.FullApplicationsTesterLab4.$anonfun$new$6(Lab4Test.scala:37)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-8.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-16.riscv[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application st-matmul-32.riscv[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should run full application towers.riscv *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  treadle.executable.StopException: Failure Stop: result 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at treadle.executable.ExecutionEngine.runAssigns(ExecutionEngine.scala:166)[0m[0m
@@ -73,8 +35,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run full application vvadd.riscv[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-1.riscv[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application stream-64-stride-1-noverify.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab4Test.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-1-noverify.riscv[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-4.riscv[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should run full application stream-64-stride-4-noverify.riscv *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (Lab4Test.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should run full application stream-64-stride-4-noverify.riscv[0m[0m

@@ -1,11 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.SmallTestsTesterLab4, org.scalatest.tools.Framework$$anon$1@5bdc62bc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dinocpu.FullApplicationsTesterLab4, org.scalatest.tools.Framework$$anon$1@2ee42a40, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
 [0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 minutes, 13 seconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 187[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 minutes, 0 seconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 187, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 187, Failed 0, Errors 0, Passed 187[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	dinocpu.SmallTestsTesterLab4[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 14, Failed 2, Errors 0, Passed 12[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	dinocpu.FullApplicationsTesterLab4[0m
+[0m[[0m[31merror[0m] [0m[0m(Lab4 / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

@@ -45,3 +45,4 @@ runMain dinocpu.simulate_predefined_system default stream-64-stride-1-noverify.r
 runMain dinocpu.simulate_predefined_system default stream-64-stride-1.riscv
 Lab4 / testOnly dinocpu.SmallTestsTesterLab4
 runMain dinocpu.simulate_predefined_system default stream-64-stride-1-noverify.riscv
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
