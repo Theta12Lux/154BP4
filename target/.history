@@ -1,3 +1,47 @@
 Lab4 / testOnly dinocpu.SmallTestsTesterLab4
 Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
 Grader / testOnly dinocpu.test.grader.Lab4Grader
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.simulate_predefined_system default add1
+runMain dinocpu.singlestep add1 30
+runMain dinocpu.singlestep add1 5
+runMain dinocpu.singlestep add1 pipelined
+runMain dinocpu.singlestep add1 pipelined 5
+runMain dinocpu.singlestep add1 1
+runMain dinocpu.singlestep add1 pipelined-non-combin 5
+runMain dinocpu.singlestep 5 add1
+runMain dinocpu.singlestep 5 pipelined-non-combin add1
+runMain dinocpu.singlestep pipelined-non-combin 5 add1
+runMain dinocpu.singlestep add1 pipelined-non-combin
+runMain dinocpu.singlestep add1 pipelined
+runMain dinocpu.singlestep 30  add1 pipelined-non-combin
+runMain dinocpu.singlestep 30 add1 pipelined-non-combin
+runMain dinocpu.singlestep add1  30 pipelined-non-combin
+runMain dinocpu.singlestep add1 30 pipelined-non-combin
+runMain dinocpu.singlestep add1 3 pipelined-non-combin
+q
+runMain dinocpu.singlestep add1 3 pipelined-non-combin
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
+runMain dinocpu.singlestep add1 3 pipelined-non-combin
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.singlestep auipc0 3 pipelined-non-combin
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.singlestep jal 3 pipelined-non-combin
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.singlestep ldfwd 2 pipelined-non-combin
+q
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
+runMain dinocpu.singlestep fibonacci 1 pipelined-non-combin
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.singlestep fibonacci 1 pipelined-non-combin
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.singlestep ldfwd 1 pipelined-non-combin
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+Lab4 / testOnly dinocpu.FullApplicationsTesterLab4
+runMain dinocpu.simulate_predefined_system default stream-64-stride-1-noverify.riscv
+runMain dinocpu.simulate_predefined_system default stream-64-stride-1.riscv
+Lab4 / testOnly dinocpu.SmallTestsTesterLab4
+runMain dinocpu.simulate_predefined_system default stream-64-stride-1-noverify.riscv

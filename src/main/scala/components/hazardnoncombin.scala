@@ -75,7 +75,7 @@ class HazardUnitNonCombin extends Module {
     io.if_id_flush := true.B
     io.id_ex_flush := true.B
   }
-  when((io.idex_memread === true.B) && (io.idex_rd === io.rs1 || io.idex_rd === io.rs2) && (io.imem_ready === false.B && io.imem_good === true.B))
+  when((io.idex_memread === true.B) && (io.idex_rd === io.rs1 || io.idex_rd === io.rs2) && (io.imem_good === true.B))
   {
     when((io.exmem_meminst === true.B && io.dmem_good === true.B) || (io.exmem_meminst === false.B && io.dmem_good === false.B))
     {
