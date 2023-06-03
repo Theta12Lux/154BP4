@@ -69,13 +69,41 @@ class HazardUnitNonCombin extends Module {
   io.mem_wb_flush := false.B
 
   // Your code goes here
+  //imem fetch code
+  when(io.imem_good === false.B)
+  {
+    io.pcstall := true.B
+    io.if_id_flush := true.B
+  }
+  //handles branching
   when(io.exmem_taken === true.B)
   {
-    io.pcfromtaken := true.B
-    io.if_id_flush := true.B
-    io.id_ex_flush := true.B
+    when(io.imem_ready === true.B)
+    {
+      io.if_id_stall := true.B
+      io.id_ex_stall := true.B
+      io.ex_mem_stall := true.B
+      io.mem_wb_stall := true.B
+    }
+    .otherwise
+    {
+      io.pcfromtaken := true.B
+      io.if_id_flush := true.B
+      io.id_ex_flush := true.B
+      io.ex_mem_flush := true.B
+    }
   }
-  when((io.idex_memread === true.B) && (io.idex_rd === io.rs1 || io.idex_rd === io.rs2) && (io.imem_good === true.B))
+  //handles dmem
+  when(io.exmem_meminst === true.B && io.dmem_good === false.B)
+  {
+    io.pcstall := true.B
+    io.if_id_stall := true.B
+    io.id_ex_stall := true.B
+    io.ex_mem_stall := true.B
+  }
+
+  //handles RAW hazards w/ memory write dependencies
+  when((io.idex_memread === true.B) && (io.idex_rd === io.rs1 || io.idex_rd === io.rs2))
   {
     when((io.exmem_meminst === true.B && io.dmem_good === true.B) || (io.exmem_meminst === false.B && io.dmem_good === false.B))
     {
@@ -85,36 +113,9 @@ class HazardUnitNonCombin extends Module {
     }
   }
 
-  when(io.exmem_meminst === true.B && io.dmem_good === false.B)
+  when(io.if_id_stall === true.B)
   {
-    io.pcstall := true.B
-    io.if_id_stall := true.B
-    io.id_ex_stall := true.B
-    io.ex_mem_stall := true.B
+    io.if_id_flush := false.B
   }
 
-  //imem fetch code
-  when(io.imem_ready === false.B)
-  {
-    when(io.imem_good === false.B)
-    {
-      io.pcstall := true.B
-      io.if_id_stall := true.B
-      io.id_ex_stall := true.B
-      io.ex_mem_stall := true.B
-      io.mem_wb_stall := true.B
-    }
-    .otherwise
-    {
-
-    }
-  }
-  .otherwise
-  {
-    io.pcstall := true.B
-    io.if_id_stall := true.B
-    io.id_ex_stall := true.B
-    io.ex_mem_stall := true.B
-    io.mem_wb_stall := true.B
-  }
 }
