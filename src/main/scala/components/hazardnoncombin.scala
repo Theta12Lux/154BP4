@@ -70,6 +70,11 @@ class HazardUnitNonCombin extends Module {
 
   // Your code goes here
   val bad_inst = RegInit(0.U(1.W))
+  val last_taken = RegInit(0.U(1.W))
+  when(last_taken === 1.U && io.imem_ready === true.B)
+  {
+    bad_inst := 0.U
+  }
   //imem fetch code
   when(io.imem_good === false.B || bad_inst === 1.U)
   {
@@ -114,5 +119,6 @@ class HazardUnitNonCombin extends Module {
   {
     io.if_id_flush := false.B
   }
-
+  //optimizations
+  last_taken := io.exmem_taken.asUInt
 }
