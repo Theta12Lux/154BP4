@@ -69,8 +69,9 @@ class HazardUnitNonCombin extends Module {
   io.mem_wb_flush := false.B
 
   // Your code goes here
+  val bad_inst = RegInit(0.U(1.W))
   //imem fetch code
-  when(io.imem_good === false.B)
+  when(io.imem_good === false.B || bad_inst === 1.U)
   {
     io.pcstall := true.B
     io.if_id_flush := true.B
@@ -78,20 +79,15 @@ class HazardUnitNonCombin extends Module {
   //handles branching
   when(io.exmem_taken === true.B)
   {
-    when(io.imem_ready === true.B)
-    {
-      io.if_id_stall := true.B
-      io.id_ex_stall := true.B
-      io.ex_mem_stall := true.B
-      io.mem_wb_stall := true.B
-    }
-    .otherwise
-    {
-      io.pcfromtaken := true.B
-      io.if_id_flush := true.B
-      io.id_ex_flush := true.B
-      io.ex_mem_flush := true.B
-    }
+    io.pcfromtaken := true.B
+    io.if_id_flush := true.B
+    io.id_ex_flush := true.B
+    io.ex_mem_flush := true.B
+    bad_inst := 1.U
+  }
+  when(io.imem_good === true.B)
+  {
+    bad_inst := 0.U
   }
   //handles dmem
   when(io.exmem_meminst === true.B && io.dmem_good === false.B)
@@ -113,6 +109,7 @@ class HazardUnitNonCombin extends Module {
     }
   }
 
+  //make sure if we need to hang on to if_id we don't accidentally flush it
   when(io.if_id_stall === true.B)
   {
     io.if_id_flush := false.B
